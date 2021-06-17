@@ -2,7 +2,7 @@ numpy==1.19.5
 pandas==1.2.4
 pandas-profiling==3.0.0
 pandocfilters==1.4.3
-pycaret==2.3.1
+pycaret
 seaborn==0.11.1
 shap==0.39.0
 sweetviz==2.1.2
