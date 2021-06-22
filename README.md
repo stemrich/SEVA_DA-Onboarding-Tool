@@ -2,4 +2,10 @@
 
 # SEVA DataAnalytics - Onboarding Tool
 
-Dieses Tool 
+Diesem Python-Notebook wurde entwickelt um
+
+- eine weitgehend automatische deskriptive Analyse von Datensätzen zu ermöglichen
+- die Potentiale von code-basierter Analyse zu zeigen
+- einen Ausblick auf die Möglichkeiten von Machine-Learning zu geben
+
+Beispielhaft wird hier ein Datensatz mit Eigenschaften von österreichischen Gemeinden verwendet, der im Zuge einer DDJ-Lehrveranstaltung der FH Joanneum Graz zusammengestellt wurde.
