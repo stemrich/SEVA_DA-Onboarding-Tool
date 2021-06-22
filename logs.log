@@ -3792,3 +3792,138 @@
 2021-06-22 16:24:55,539:INFO:Checking exceptions
 2021-06-22 16:24:55,540:INFO:Preloading libraries
 2021-06-22 16:24:55,540:INFO:Preparing display monitor
+2021-06-22 17:42:32,243:INFO:Initializing tune_model()
+2021-06-22 17:42:32,244:INFO:tune_model(estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='auto',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=100,
+                       n_jobs=-1, oob_score=False, random_state=101, verbose=0,
+                       warm_start=False), fold=3, round=4, n_iter=10, custom_grid=None, optimize=Accuracy, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=False, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, display=None, kwargs={})
+2021-06-22 17:42:32,244:INFO:Checking exceptions
+2021-06-22 17:42:32,248:INFO:Preparing display monitor
+2021-06-22 17:42:32,294:INFO:Copying training dataset
+2021-06-22 17:42:32,296:INFO:Checking base model
+2021-06-22 17:42:32,297:INFO:Base model : Random Forest Classifier
+2021-06-22 17:42:32,315:INFO:Declaring metric variables
+2021-06-22 17:42:32,333:INFO:Defining Hyperparameters
+2021-06-22 17:42:33,254:INFO:Tuning with n_jobs=-1
+2021-06-22 17:42:33,255:INFO:Initializing RandomizedSearchCV
+2021-06-22 17:43:09,810:INFO:best_params: {'actual_estimator__n_estimators': 270, 'actual_estimator__min_samples_split': 10, 'actual_estimator__min_samples_leaf': 5, 'actual_estimator__min_impurity_decrease': 0.0001, 'actual_estimator__max_features': 'log2', 'actual_estimator__max_depth': 11, 'actual_estimator__criterion': 'entropy', 'actual_estimator__class_weight': {}, 'actual_estimator__bootstrap': False}
+2021-06-22 17:43:09,813:INFO:Hyperparameter search completed
+2021-06-22 17:43:09,815:INFO:SubProcess create_model() called ==================================
+2021-06-22 17:43:09,817:INFO:Initializing create_model()
+2021-06-22 17:43:09,817:INFO:create_model(estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='auto',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=100,
+                       n_jobs=-1, oob_score=False, random_state=101, verbose=0,
+                       warm_start=False), fold=StratifiedKFold(n_splits=3, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, verbose=True, system=False, metrics=None, display=<pycaret.internal.Display.Display object at 0x7f38dd9cbbe0>, kwargs={'n_estimators': 270, 'min_samples_split': 10, 'min_samples_leaf': 5, 'min_impurity_decrease': 0.0001, 'max_features': 'log2', 'max_depth': 11, 'criterion': 'entropy', 'class_weight': {}, 'bootstrap': False})
+2021-06-22 17:43:09,817:INFO:Checking exceptions
+2021-06-22 17:43:09,817:INFO:Importing libraries
+2021-06-22 17:43:09,817:INFO:Copying training dataset
+2021-06-22 17:43:09,823:INFO:Defining folds
+2021-06-22 17:43:09,823:INFO:Declaring metric variables
+2021-06-22 17:43:09,861:INFO:Importing untrained model
+2021-06-22 17:43:09,862:INFO:Declaring custom model
+2021-06-22 17:43:09,903:INFO:Random Forest Classifier Imported succesfully
+2021-06-22 17:43:09,966:INFO:Starting cross validation
+2021-06-22 17:43:09,967:INFO:Cross validating with StratifiedKFold(n_splits=3, random_state=None, shuffle=False), n_jobs=-1
+2021-06-22 17:43:14,670:INFO:Calculating mean and std
+2021-06-22 17:43:14,675:INFO:Creating metrics dataframe
+2021-06-22 17:43:14,722:INFO:Finalizing model
+2021-06-22 17:43:16,623:INFO:Uploading results into container
+2021-06-22 17:43:16,624:INFO:Uploading model into container now
+2021-06-22 17:43:16,624:INFO:create_model_container: 16
+2021-06-22 17:43:16,624:INFO:master_model_container: 16
+2021-06-22 17:43:16,624:INFO:display_container: 6
+2021-06-22 17:43:16,625:INFO:RandomForestClassifier(bootstrap=False, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=11, max_features='log2',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0001, min_impurity_split=None,
+                       min_samples_leaf=5, min_samples_split=10,
+                       min_weight_fraction_leaf=0.0, n_estimators=270,
+                       n_jobs=-1, oob_score=False, random_state=101, verbose=0,
+                       warm_start=False)
+2021-06-22 17:43:16,625:INFO:create_model() succesfully completed......................................
+2021-06-22 17:43:17,525:INFO:SubProcess create_model() end ==================================
+2021-06-22 17:43:17,566:INFO:create_model_container: 16
+2021-06-22 17:43:17,566:INFO:master_model_container: 16
+2021-06-22 17:43:17,567:INFO:display_container: 6
+2021-06-22 17:43:17,568:INFO:RandomForestClassifier(bootstrap=False, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=11, max_features='log2',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0001, min_impurity_split=None,
+                       min_samples_leaf=5, min_samples_split=10,
+                       min_weight_fraction_leaf=0.0, n_estimators=270,
+                       n_jobs=-1, oob_score=False, random_state=101, verbose=0,
+                       warm_start=False)
+2021-06-22 17:43:17,568:INFO:tune_model() succesfully completed......................................
+2021-06-22 17:46:43,012:INFO:Initializing finalize_model()
+2021-06-22 17:46:43,013:INFO:finalize_model(estimator=RandomForestClassifier(bootstrap=False, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=11, max_features='log2',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0001, min_impurity_split=None,
+                       min_samples_leaf=5, min_samples_split=10,
+                       min_weight_fraction_leaf=0.0, n_estimators=270,
+                       n_jobs=-1, oob_score=False, random_state=101, verbose=0,
+                       warm_start=False), fit_kwargs=None, groups=None, model_only=True, display=None)
+2021-06-22 17:46:43,014:INFO:Finalizing RandomForestClassifier(bootstrap=False, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=11, max_features='log2',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0001, min_impurity_split=None,
+                       min_samples_leaf=5, min_samples_split=10,
+                       min_weight_fraction_leaf=0.0, n_estimators=270,
+                       n_jobs=-1, oob_score=False, random_state=101, verbose=0,
+                       warm_start=False)
+2021-06-22 17:46:43,015:INFO:Initializing create_model()
+2021-06-22 17:46:43,015:INFO:create_model(estimator=RandomForestClassifier(bootstrap=False, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=11, max_features='log2',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0001, min_impurity_split=None,
+                       min_samples_leaf=5, min_samples_split=10,
+                       min_weight_fraction_leaf=0.0, n_estimators=270,
+                       n_jobs=-1, oob_score=False, random_state=101, verbose=0,
+                       warm_start=False), fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, verbose=False, system=False, metrics=None, display=None, kwargs={})
+2021-06-22 17:46:43,015:INFO:Checking exceptions
+2021-06-22 17:46:43,016:INFO:Importing libraries
+2021-06-22 17:46:43,016:INFO:Copying training dataset
+2021-06-22 17:46:43,018:INFO:Defining folds
+2021-06-22 17:46:43,018:INFO:Declaring metric variables
+2021-06-22 17:46:43,018:INFO:Importing untrained model
+2021-06-22 17:46:43,018:INFO:Declaring custom model
+2021-06-22 17:46:43,020:INFO:Random Forest Classifier Imported succesfully
+2021-06-22 17:46:43,020:INFO:Starting cross validation
+2021-06-22 17:46:43,022:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2021-06-22 17:47:01,379:INFO:Calculating mean and std
+2021-06-22 17:47:01,380:INFO:Creating metrics dataframe
+2021-06-22 17:47:01,392:INFO:Finalizing model
+2021-06-22 17:47:03,244:INFO:Uploading results into container
+2021-06-22 17:47:03,245:INFO:Uploading model into container now
+2021-06-22 17:47:03,245:INFO:create_model_container: 17
+2021-06-22 17:47:03,245:INFO:master_model_container: 17
+2021-06-22 17:47:03,245:INFO:display_container: 7
+2021-06-22 17:47:03,245:INFO:RandomForestClassifier(bootstrap=False, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=11, max_features='log2',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0001, min_impurity_split=None,
+                       min_samples_leaf=5, min_samples_split=10,
+                       min_weight_fraction_leaf=0.0, n_estimators=270,
+                       n_jobs=-1, oob_score=False, random_state=101, verbose=0,
+                       warm_start=False)
+2021-06-22 17:47:03,246:INFO:create_model() succesfully completed......................................
+2021-06-22 17:47:04,064:INFO:create_model_container: 17
+2021-06-22 17:47:04,064:INFO:master_model_container: 17
+2021-06-22 17:47:04,064:INFO:display_container: 6
+2021-06-22 17:47:04,065:INFO:RandomForestClassifier(bootstrap=False, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=11, max_features='log2',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0001, min_impurity_split=None,
+                       min_samples_leaf=5, min_samples_split=10,
+                       min_weight_fraction_leaf=0.0, n_estimators=270,
+                       n_jobs=-1, oob_score=False, random_state=101, verbose=0,
+                       warm_start=False)
+2021-06-22 17:47:04,066:INFO:finalize_model() succesfully completed......................................
