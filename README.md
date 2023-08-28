@@ -17,7 +17,7 @@ The Machine Learning section of the notebook can be found here:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stemrich/SEVA_DA-Onboarding-Tool/master?filepath=index_ml.ipynb)
 
 
-## German
+## Deutsch
 
 Diesem Python-Notebook wurde entwickelt um
 
