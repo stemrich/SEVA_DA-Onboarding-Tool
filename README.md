@@ -2,6 +2,23 @@
 
 # SEVA DataAnalytics - Onboarding Tool
 
+Deutsch >> siehe weiter unten
+
+## English
+
+This Python notebook was developed to:
+-Enable a largely automated descriptive analysis of data sets.
+-Demonstrate the potentials of code-based analysis.
+-Provide an overview of the possibilities of Machine Learning.
+
+As an example, a dataset with properties of Austrian municipalities is used here, which was compiled as part of a data journalism (DDJ) course at FH Joanneum Graz.
+
+The Machine Learning section of the notebook can be found here:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stemrich/SEVA_DA-Onboarding-Tool/master?filepath=index_ml.ipynb)
+
+
+## German
+
 Diesem Python-Notebook wurde entwickelt um
 
 - eine weitgehend automatische deskriptive Analyse von Datensätzen zu ermöglichen
