@@ -1,10 +1,11 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stemrich/SEVA_DA-Onboarding-Tool/master?filepath=index.ipynb)
-
 # SEVA DataAnalytics - Onboarding Tool
 
 Deutsch >> siehe weiter unten
 
 ## English
+
+Launch the tool:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stemrich/SEVA_DA-Onboarding-Tool/master?filepath=index.ipynb)
 
 This Python notebook was developed to:
 -Enable a largely automated descriptive analysis of data sets.
@@ -18,6 +19,9 @@ The Machine Learning section of the notebook can be found here:
 
 
 ## Deutsch
+
+Start des Tools:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stemrich/SEVA_DA-Onboarding-Tool/master?filepath=index.ipynb)
 
 Diesem Python-Notebook wurde entwickelt um
 
