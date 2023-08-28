@@ -7,10 +7,10 @@ Deutsch >> siehe weiter unten
 Launch the tool:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stemrich/SEVA_DA-Onboarding-Tool/master?filepath=index.ipynb)
 
-This Python notebook was developed to:
--Enable a largely automated descriptive analysis of data sets.
--Demonstrate the potentials of code-based analysis.
--Provide an overview of the possibilities of Machine Learning.
+This Python notebook was developed to
+- Enable a largely automated descriptive analysis of data sets.
+- Demonstrate the potentials of code-based analysis.
+- Provide an overview of the possibilities of Machine Learning.
 
 As an example, a dataset with properties of Austrian municipalities is used here, which was compiled as part of a data journalism (DDJ) course at FH Joanneum Graz.
 
@@ -24,7 +24,6 @@ Start des Tools:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stemrich/SEVA_DA-Onboarding-Tool/master?filepath=index.ipynb)
 
 Dieses Python-Notebook wurde entwickelt um
-
 - eine weitgehend automatische deskriptive Analyse von Datensätzen zu ermöglichen
 - die Potentiale von code-basierter Analyse zu zeigen
 - einen Ausblick auf die Möglichkeiten von Machine-Learning zu geben
