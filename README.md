@@ -23,7 +23,7 @@ The Machine Learning section of the notebook can be found here:
 Start des Tools:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stemrich/SEVA_DA-Onboarding-Tool/master?filepath=index.ipynb)
 
-Diesem Python-Notebook wurde entwickelt um
+Dieses Python-Notebook wurde entwickelt um
 
 - eine weitgehend automatische deskriptive Analyse von Datensätzen zu ermöglichen
 - die Potentiale von code-basierter Analyse zu zeigen
